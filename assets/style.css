@@ -215,3 +215,14 @@ p {margin:7px 0 12px;}
 .publications-page .paper{position:relative;padding-left:2.5em;}
 .publications-page .paper-number{position:absolute;top:13px;left:0;font-size:21px;font-weight:600;line-height:1.48;}
 @media(max-width:800px){.research-stack .project h2{font-size:23px}.publications-page .paper-number{font-size:19px;}}
+
+/* Site name in top navigation: larger and more prominent. */
+.site-header .wordmark {font-size:36px;line-height:1.15;font-weight:700;white-space:nowrap;}
+.site-header .header-inner {min-height:83px;}
+@media(max-width:800px){.site-header .wordmark{font-size:31px;}}
+@media(max-width:480px){.site-header .wordmark{font-size:29px;}}
+
+/* Consistent breathing room between the site header and the content on every page. */
+.main, .main.faculty-home {padding-top:72px;}
+@media(max-width:800px){.main, .main.faculty-home {padding-top:48px;}}
+@media print {.main, .main.faculty-home {padding-top:10px;}}
