@@ -67,3 +67,77 @@ h1{font-size:40px}h2{font-size:29px}h3{font-size:23px}
 
 /* Education added back to Home */
 .faculty-home .education-entry{margin:0 0 18px;line-height:1.6}.faculty-home .education-entry strong{font-weight:600}.faculty-home .education-entry em{font-weight:400}
+
+/* Oct 16 refinements: spacious home header and accessible typography */
+body {font-size:20px;line-height:1.7;}
+.wrap {max-width:1500px;}
+nav a {font-size:17px;}
+h1 {font-size:44px;}
+h2 {font-size:32px;}
+h3 {font-size:25px;}
+.intro {font-size:21px;}
+.faculty-home {font-size:21px;}
+.faculty-home .faculty-intro {display:grid;grid-template-columns:220px minmax(0,1fr);align-items:center;gap:clamp(44px,16vw,280px);}
+.faculty-photo {width:220px;}
+.faculty-profile h1 {font-size:46px;}
+.faculty-profile p {font-size:22px;line-height:1.75;}
+.faculty-home h2 {font-size:32px;}
+.faculty-home .education-entry {margin-bottom:19px;}
+.paper {padding:25px 0;}
+.paper strong {font-size:22px;line-height:1.5;}
+.paper p {font-size:20px;line-height:1.6;}
+.paper .meta,.meta,.small {font-size:18px;}
+.paper a {text-decoration:underline;text-underline-offset:3px;}
+.feature p,.project p,.info-grid .project p {font-size:20px;}
+.info-grid .project h2 {font-size:25px;}
+.course-table td {font-size:19px;}
+.course-table th {font-size:17px;}
+@media(max-width:800px) {
+  .faculty-home .faculty-intro {grid-template-columns:140px minmax(0,1fr);gap:25px;}
+  .faculty-photo {width:140px;}
+  .faculty-profile h1 {font-size:34px;}
+  .faculty-profile p {font-size:17px;}
+  .faculty-home {font-size:18px;}
+  .faculty-home h2 {font-size:27px;}
+  .paper strong {font-size:20px;}
+  .paper p {font-size:18px;}
+}
+@media(max-width:480px) {
+  .faculty-home .faculty-intro {grid-template-columns:100px minmax(0,1fr);gap:18px;}
+  .faculty-photo {width:100px;}
+  .faculty-profile h1 {font-size:29px;}
+  .faculty-profile p {font-size:15px;}
+  .paper strong {font-size:19px;}
+}
+
+/* Oct 16 final: readable, compact scholarly layout */
+body{font-size:21px;line-height:1.44}
+.wrap{max-width:1550px}
+.main{padding-top:25px;padding-bottom:36px;min-height:65vh}
+.site-header .header-inner{min-height:65px}
+h1{font-size:46px;margin:0 0 13px}h2{font-size:32px;margin:26px 0 10px}h3{font-size:25px}
+p{margin:7px 0 12px}
+.intro{font-size:21px;line-height:1.45;margin:5px 0 17px}
+.eyebrow{font-size:14px}
+.faculty-home{padding-top:22px;font-size:21px;line-height:1.43}
+.faculty-home .faculty-intro{grid-template-columns:235px minmax(0,1fr);gap:clamp(35px,13vw,240px);padding-bottom:18px}
+.faculty-photo{width:235px}
+.faculty-profile h1{font-size:47px;margin-bottom:10px}
+.faculty-profile p{font-size:23px;line-height:1.45;margin-bottom:8px}
+.faculty-home section:not(:first-child){padding:5px 0}
+.faculty-home h2{font-size:32px;margin:15px 0 10px}
+.faculty-home .education-entry{margin-bottom:11px;line-height:1.45}
+.paper{padding:11px 0;border-bottom:1px solid #e4e7eb}
+.paper .apa-citation{font-size:22px;line-height:1.47;margin:0;max-width:1400px;padding-left:1.35em;text-indent:-1.35em}
+.paper .apa-citation em{font-style:italic}
+.paper .apa-citation a{font-size:19px;white-space:nowrap}
+.list-clean li{margin-bottom:6px;line-height:1.5}
+.info-grid{gap:20px 45px}
+.info-grid .project{padding-bottom:9px}
+.info-grid .project h2{margin:4px 0 6px}
+.project p,.info-grid .project p{font-size:21px;line-height:1.45;margin:6px 0}
+.course-table td,.course-table th{padding:9px 11px;line-height:1.35}
+.course-table td{font-size:19px}
+.meta,.small{font-size:17px}
+@media(max-width:800px){body{font-size:18px}.main{padding-top:24px}.faculty-home .faculty-intro{grid-template-columns:140px 1fr;gap:20px}.faculty-photo{width:140px}.faculty-profile h1{font-size:33px}.faculty-profile p{font-size:17px}.paper .apa-citation{font-size:19px}.wrap{padding-left:22px;padding-right:22px}}
+@media(max-width:480px){.faculty-home .faculty-intro{grid-template-columns:100px 1fr;gap:14px}.faculty-photo{width:100px}.faculty-profile h1{font-size:29px}.faculty-profile p{font-size:15px}.paper .apa-citation{font-size:18px}}
