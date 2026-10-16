@@ -64,3 +64,6 @@ h1{font-size:40px}h2{font-size:29px}h3{font-size:23px}
 .footer{font-size:15px}
 @media(max-width:800px){.wrap{padding-left:24px;padding-right:24px}.header-inner{display:block;padding-top:15px;padding-bottom:14px}.header-inner nav{gap:15px;margin-top:10px}.main{padding-top:28px}.info-grid{grid-template-columns:1fr;gap:18px}nav a{font-size:14px}.faculty-photo{width:130px}.faculty-home{font-size:16px}.faculty-home h2{font-size:24px}.faculty-profile h1{font-size:30px}.course-table td{font-size:14px}}
 @media(max-width:480px){.faculty-home .faculty-intro{gap:15px}.faculty-photo{width:100px}body{font-size:16px}.wrap{padding-left:18px;padding-right:18px}}
+
+/* Education added back to Home */
+.faculty-home .education-entry{margin:0 0 18px;line-height:1.6}.faculty-home .education-entry strong{font-weight:600}.faculty-home .education-entry em{font-weight:400}
