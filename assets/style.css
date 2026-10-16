@@ -205,3 +205,13 @@ p {margin:7px 0 12px;}
   .paper .apa-citation,.publications-page .paper::before {font-size:18px;}
   .publications-page .paper {padding-left:2em;}
 }
+
+/* Vertical research sections and visible publication numbering */
+.research-stack{display:block;margin-top:18px;}
+.research-stack .project{display:block;padding:15px 0 18px;border-bottom:1px solid #e5e8eb;}
+.research-stack .project h2{font-size:27px;margin:0 0 10px;padding:0;border:0;}
+.research-stack .project p{margin:5px 0 8px;}
+.publications-page .paper::before{content:none!important;}
+.publications-page .paper{position:relative;padding-left:2.5em;}
+.publications-page .paper-number{position:absolute;top:13px;left:0;font-size:21px;font-weight:600;line-height:1.48;}
+@media(max-width:800px){.research-stack .project h2{font-size:23px}.publications-page .paper-number{font-size:19px;}}
