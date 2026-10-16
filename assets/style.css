@@ -40,3 +40,27 @@ h1{font-size:30px}h2{font-size:25px;border:0;padding:0;margin-top:46px}
 .footer{border-top:1px solid #eee}
 .paper strong{color:#111}
 @media(max-width:600px){.wrap{padding-left:20px;padding-right:20px}.faculty-home .faculty-intro{gap:17px}.faculty-photo{width:110px}.faculty-profile h1{font-size:25px}.faculty-home h2{font-size:22px}nav{gap:13px}}
+
+/* October 2026: readable, full-width academic layout. */
+:root{--link:#175579}
+body{font-size:18px;line-height:1.68}
+.wrap{max-width:1420px;width:100%;padding-left:56px;padding-right:56px}
+.main{padding-top:48px;padding-bottom:70px}
+article,.section-note,.hero,.hero p{max-width:none}
+.wordmark{font-size:24px}
+nav a{font-size:16px}
+h1{font-size:40px}h2{font-size:29px}h3{font-size:23px}
+.intro{font-size:19px;max-width:none}
+.eyebrow,.meta,.paper .meta,.small,.tag{font-size:16px}
+.paper{padding:21px 0}.paper p{font-size:17px}
+.feature p,.project p,.info-grid .project p{font-size:17px}
+.info-grid{gap:38px 60px}.info-grid .project h2{font-size:23px}
+.course-table td{font-size:17px}.course-table th{font-size:15px}
+.faculty-home{max-width:1420px;font-size:18px;padding-top:48px}
+.faculty-profile h1{font-size:39px}
+.faculty-home h2{font-size:29px}
+.faculty-photo{width:200px}
+.faculty-home .faculty-intro{gap:35px}
+.footer{font-size:15px}
+@media(max-width:800px){.wrap{padding-left:24px;padding-right:24px}.header-inner{display:block;padding-top:15px;padding-bottom:14px}.header-inner nav{gap:15px;margin-top:10px}.main{padding-top:28px}.info-grid{grid-template-columns:1fr;gap:18px}nav a{font-size:14px}.faculty-photo{width:130px}.faculty-home{font-size:16px}.faculty-home h2{font-size:24px}.faculty-profile h1{font-size:30px}.course-table td{font-size:14px}}
+@media(max-width:480px){.faculty-home .faculty-intro{gap:15px}.faculty-photo{width:100px}body{font-size:16px}.wrap{padding-left:18px;padding-right:18px}}
