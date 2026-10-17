@@ -241,3 +241,7 @@ p {margin:7px 0 12px;}
 .research-stack + .funding-title {font-size:50px;line-height:1.2;font-weight:700;margin-top:35px;margin-bottom:14px;}
 @media(max-width:800px){.research-stack + .funding-title{font-size:40px;}}
 @media(max-width:480px){.research-stack + .funding-title{font-size:34px;}}
+
+/* Publications: highlight Mo Li and explain author contribution markers. */
+.publications-page .my-name { font-weight: 750; color: inherit; }
+.publications-page .publication-legend { font-size: 0.88em; margin-top: 0.35rem; margin-bottom: 1.4rem; }
