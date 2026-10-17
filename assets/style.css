@@ -215,33 +215,3 @@ p {margin:7px 0 12px;}
 .publications-page .paper{position:relative;padding-left:2.5em;}
 .publications-page .paper-number{position:absolute;top:13px;left:0;font-size:21px;font-weight:600;line-height:1.48;}
 @media(max-width:800px){.research-stack .project h2{font-size:23px}.publications-page .paper-number{font-size:19px;}}
-
-/* Site name in top navigation: larger and more prominent. */
-.site-header .wordmark {font-size:36px;line-height:1.15;font-weight:700;white-space:nowrap;}
-.site-header .header-inner {min-height:83px;}
-@media(max-width:800px){.site-header .wordmark{font-size:31px;}}
-@media(max-width:480px){.site-header .wordmark{font-size:29px;}}
-
-/* Consistent breathing room between the site header and the content on every page. */
-.main, .main.faculty-home {padding-top:72px;}
-@media(max-width:800px){.main, .main.faculty-home {padding-top:48px;}}
-@media print {.main, .main.faculty-home {padding-top:10px;}}
-
-/* Home-specific spacing: balance the large header gap and dense profile sections. */
-.main.faculty-home {padding-top:42px;}
-.faculty-home .faculty-intro {padding-bottom:30px;}
-.faculty-home section:not(:first-child) {padding:18px 0 22px;}
-.faculty-home h2 {margin:14px 0 16px;}
-.faculty-home .education-entry {margin-bottom:16px;line-height:1.48;}
-.faculty-home .education-entry:last-child {margin-bottom:0;}
-@media(max-width:800px){.main.faculty-home {padding-top:30px;}.faculty-home section:not(:first-child){padding:15px 0 19px;}}
-@media print {.main.faculty-home {padding-top:10px;}}
-
-/* Research funding heading matches primary page heading. */
-.research-stack + .funding-title {font-size:50px;line-height:1.2;font-weight:700;margin-top:35px;margin-bottom:14px;}
-@media(max-width:800px){.research-stack + .funding-title{font-size:40px;}}
-@media(max-width:480px){.research-stack + .funding-title{font-size:34px;}}
-
-/* Publications: highlight Mo Li and explain author contribution markers. */
-.publications-page .my-name { font-weight: 750; color: inherit; }
-.publications-page .publication-legend { font-size: 0.88em; margin-top: 0.35rem; margin-bottom: 1.4rem; }
