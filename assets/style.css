@@ -245,3 +245,6 @@ p {margin:7px 0 12px;}
 /* Publications: highlight Mo Li and explain author contribution markers. */
 .publications-page .my-name { font-weight: 750; color: inherit; }
 .publications-page .publication-legend { font-size: 0.88em; margin-top: 0.35rem; margin-bottom: 1.4rem; }
+
+/* Clearly emphasize the website owner in every citation. */
+.publications-page .paper .apa-citation strong.my-name {font-family: Arial, Helvetica, sans-serif !important; font-weight: 800 !important; font-size: inherit !important; color: #101010 !important;}
